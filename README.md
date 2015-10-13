@@ -1,2 +1,2 @@
-# alan-church
-Character for GURPS campaign
+# Alan Church
+Character for a GURPS campaign.
