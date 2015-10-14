@@ -1,2 +1,2 @@
 # Alan Church
-Character for a GURPS campaign.
+Character for a GURPS campaign. It will be a mage.
