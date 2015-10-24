@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Oct 23, 2015 9:45 PM</modified_date>
+	<modified_date>Oct 24, 2015 4:14 PM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -211,6 +211,17 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
+				<advantage version="2">
+					<name>Signature Gear</name>
+					<type>Social</type>
+					<levels>1</levels>
+					<points_per_level>1</points_per_level>
+					<reference>B85</reference>
+					<notes>Gear is worth (starting wealth)/10 per level</notes>
+					<categories>
+						<category>Advantage</category>
+					</categories>
+				</advantage>
 			</advantage_container>
 			<advantage version="2">
 				<name>Rank</name>
@@ -287,17 +298,6 @@
 					<reference>B83</reference>
 				</modifier>
 				<reference>B82</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Signature Gear</name>
-				<type>Social</type>
-				<levels>1</levels>
-				<points_per_level>1</points_per_level>
-				<reference>B85</reference>
-				<notes>Gear is worth (starting wealth)/10 per level</notes>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -1338,6 +1338,9 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
+		<skill_container version="2" open="yes">
+			<name>Spells</name>
+		</skill_container>
 	</skill_list>
 	<print_settings printer="Brother DCP-1610W series" units="in">
 		<orientation>portrait</orientation>
