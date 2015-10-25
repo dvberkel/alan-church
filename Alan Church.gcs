@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Oct 25, 2015 1:07 PM</modified_date>
+	<modified_date>Oct 25, 2015 5:32 PM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -937,6 +937,26 @@
 		<skill version="2">
 			<name>Innate Attack</name>
 			<specialization>Beam</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B201</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Innate Attack</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Innate Attack</name>
+			<specialization>Breath</specialization>
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
 			<reference>B201</reference>
