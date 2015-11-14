@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Nov 14, 2015 2:43 PM</modified_date>
+	<modified_date>Nov 14, 2015 2:47 PM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -55,7 +55,7 @@
 			<advantage version="2">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
-				<levels>10</levels>
+				<levels>2</levels>
 				<points_per_level>3</points_per_level>
 				<reference>B16</reference>
 				<categories>
@@ -231,7 +231,7 @@
 			<advantage version="2">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
-				<levels>5</levels>
+				<levels>3</levels>
 				<base_points>5</base_points>
 				<points_per_level>10</points_per_level>
 				<modifier version="1" enabled="no">
@@ -361,7 +361,7 @@
 			<advantage version="2">
 				<name>Rank</name>
 				<type>Physical</type>
-				<levels>4</levels>
+				<levels>1</levels>
 				<points_per_level>5</points_per_level>
 				<modifier version="1" enabled="no">
 					<name>Replaces Status</name>
@@ -397,47 +397,6 @@
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Security Clearance</name>
-				<type>Social</type>
-				<modifier version="1" enabled="no">
-					<name>Narrow Clearance on a "Need to Know" Basis</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>@What@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Narrow Clearance with Free Access</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>Corporate Lore</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broad Clearance on a "Need to Know" Basis</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>@What@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broad Clearance with Free Access</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>@What@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Minor Importance</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B83</reference>
-				</modifier>
-				<reference>B82</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
 				<name>Social Chameleon</name>
 				<type>Mental</type>
 				<base_points>5</base_points>
@@ -449,7 +408,7 @@
 			<advantage version="2">
 				<name>Talent (Smooth Operator)</name>
 				<type>Mental</type>
-				<levels>2</levels>
+				<levels>1</levels>
 				<points_per_level>15</points_per_level>
 				<modifier version="1">
 					<name>Reaction Bonus</name>
