@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Nov 16, 2015 7:44 AM</modified_date>
+	<modified_date>Nov 18, 2015 7:04 AM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -808,6 +808,21 @@
 				</advantage>
 				<advantage version="2">
 					<name>Glasses</name>
+					<type>Physical</type>
+					<base_points>-1</base_points>
+				</advantage>
+				<advantage version="2">
+					<name>Heisenquirk</name>
+					<type>Physical</type>
+					<base_points>-1</base_points>
+				</advantage>
+				<advantage version="2">
+					<name>Heisenquirk</name>
+					<type>Physical</type>
+					<base_points>-1</base_points>
+				</advantage>
+				<advantage version="2">
+					<name>Heisenquirk</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
@@ -1752,158 +1767,6 @@
 			</spell>
 		</spell_container>
 		<spell_container version="2" open="yes">
-			<name>Body Control</name>
-			<spell version="2">
-				<name>Clumsiness</name>
-				<college>Body Control</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1-5</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M36</reference>
-				<categories>
-					<category>Body Control</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">spasm</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Hinder</name>
-				<college>Body Control</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1-4</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M36</reference>
-				<categories>
-					<category>Body Control</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">clumsiness</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Itch</name>
-				<college>Body Control</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Until scratched</duration>
-				<reference>M35</reference>
-				<categories>
-					<category>Body Control</category>
-				</categories>
-			</spell>
-			<spell version="2">
-				<name>Spasm</name>
-				<college>Body Control</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M35</reference>
-				<categories>
-					<category>Body Control</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">itch</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Vigor</name>
-				<college>Body Control</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2/+HT</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M37</reference>
-				<categories>
-					<category>Body Control</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">lend vitality</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">frailty</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Communication</name>
-			<spell version="2">
-				<name>Sense Foes</name>
-				<college>Communication</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Info/Area</spell_class>
-				<casting_cost>1/area, min 2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M44</reference>
-				<categories>
-					<category>Communication</category>
-				</categories>
-			</spell>
-		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Earth</name>
-			<spell version="2">
-				<name>Seek Earth</name>
-				<college>Earth</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Info</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M50</reference>
-				<categories>
-					<category>Earth</category>
-				</categories>
-			</spell>
-			<spell version="2">
-				<name>Shape Earth</name>
-				<college>Earth</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1/25 cu ft</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M50</reference>
-				<categories>
-					<category>Earth</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">seek earth</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-		</spell_container>
-		<spell_container version="2" open="yes">
 			<name>Fire</name>
 			<spell version="2" very_hard="yes">
 				<name>Body of Flames</name>
@@ -2079,25 +1942,6 @@
 				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Control Fire Elemental</name>
-				<college>Fire</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>Special</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M28</reference>
-				<categories>
-					<category>Fire</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">summon fire elemental</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
 				<name>Create Fire</name>
 				<college>Fire</college>
 				<power_source>Arcane</power_source>
@@ -2122,37 +1966,6 @@
 					</spell_prereq>
 					<spell_prereq has="yes">
 						<name compare="is">ignite fire</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Create Fire Elemental</name>
-				<college>Fire</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>Special</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>Special</casting_time>
-				<duration>Permanent</duration>
-				<reference>M28</reference>
-				<categories>
-					<category>Fire</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (fire)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">control fire elemental</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -2721,57 +2534,6 @@
 				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Summon Fire Elemental</name>
-				<college>Fire</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>4#</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>30 sec</casting_time>
-				<duration>1 hr</duration>
-				<reference>M27</reference>
-				<categories>
-					<category>Fire</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (fire)</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-					</prereq_list>
-					<prereq_list all="no">
-						<prereq_list all="yes">
-							<prereq_list all="no">
-								<spell_prereq has="yes">
-									<name compare="is">summon air elemental</name>
-								</spell_prereq>
-								<spell_prereq has="yes">
-									<name compare="is">summon water elemental</name>
-								</spell_prereq>
-								<spell_prereq has="yes">
-									<name compare="is">summon earth elemental</name>
-								</spell_prereq>
-							</prereq_list>
-							<spell_prereq has="yes">
-								<college compare="contains">fire</college>
-								<quantity compare="at least">4</quantity>
-							</spell_prereq>
-						</prereq_list>
-						<spell_prereq has="yes">
-							<college compare="contains">fire</college>
-							<quantity compare="at least">8</quantity>
-						</spell_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
 				<name>Warmth</name>
 				<college>Fire/Protection</college>
 				<power_source>Arcane</power_source>
@@ -2794,28 +2556,6 @@
 		</spell_container>
 		<spell_container version="2" open="yes">
 			<name>Healing</name>
-			<spell version="2">
-				<name>Cure Disease</name>
-				<college>Healing</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>10 min</casting_time>
-				<duration>Permanent</duration>
-				<reference>M91</reference>
-				<categories>
-					<category>Healing</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">relieve sickness</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">major healing</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
 			<spell version="2" very_hard="yes">
 				<name>Great Healing</name>
 				<college>Healing</college>
@@ -2844,37 +2584,6 @@
 					</prereq_list>
 					<spell_prereq has="yes">
 						<name compare="is">major healing</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Instant Neutralize Poison</name>
-				<college>Healing</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>8</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Permanent</duration>
-				<reference>M92</reference>
-				<categories>
-					<category>Healing</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (healing)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">neutralize poison</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -2979,65 +2688,6 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
-				<name>Neutralize Poison</name>
-				<college>Healing</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>5</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>30 sec</casting_time>
-				<duration>Permanent</duration>
-				<reference>M92</reference>
-				<categories>
-					<category>Healing</category>
-				</categories>
-				<prereq_list all="no">
-					<skill_prereq has="yes">
-						<name compare="is">poisons</name>
-						<specialization compare="is anything"></specialization>
-					</skill_prereq>
-					<prereq_list all="yes">
-						<spell_prereq has="yes">
-							<name compare="is">test food</name>
-						</spell_prereq>
-						<prereq_list all="no">
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="contains">one college (healing)</notes>
-								<level compare="at least">3</level>
-							</advantage_prereq>
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="is anything"></notes>
-								<level compare="at least">3</level>
-							</advantage_prereq>
-						</prereq_list>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">cure disease</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Relieve Sickness</name>
-				<college>Healing</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M90</reference>
-				<categories>
-					<category>Healing</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">lend vitality</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
 		</spell_container>
 		<spell_container version="2" open="yes">
 			<name>Knowledge</name>
@@ -3097,1064 +2747,39 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
+		</spell_container>
+		<spell_container version="2" open="yes">
+			<name>Earth</name>
 			<spell version="2">
-				<name>Beacon</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>10</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>30 sec</casting_time>
-				<duration>24 hrs</duration>
-				<reference>M83</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">timeport</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">teleport</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">plane shift</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Blink</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M148</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">teleport</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Blink Other</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M148</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">blink</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Dancing Object</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>2</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>1 hr</duration>
-				<reference>M144</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Deflect Missile</name>
-				<college>Movement/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>1</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Distant Blow</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>5 sec</duration>
-				<reference>M144</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Divert Teleport</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M84</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">trace teleport</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Ethereal Body</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>8</casting_cost>
-				<maintenance_cost>4</maintenance_cost>
-				<casting_time>30 sec</casting_time>
-				<duration>10 sec</duration>
-				<reference>M146</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="no">
-					<prereq_list all="yes">
-						<prereq_list all="no">
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="contains">one college (movement)</notes>
-								<level compare="at least">3</level>
-							</advantage_prereq>
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="is anything"></notes>
-								<level compare="at least">3</level>
-							</advantage_prereq>
-						</prereq_list>
-						<spell_prereq has="yes">
-							<name compare="is">body of air</name>
-						</spell_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<college compare="contains">movement</college>
-						<quantity compare="at least">6</quantity>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Flight</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>5</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">levitation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Flying Carpet</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1/sq foot of surface</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>5 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M146</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="no">
-					<prereq_list all="yes">
-						<prereq_list all="no">
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="contains">one college (movement)</notes>
-								<level compare="at least">2</level>
-							</advantage_prereq>
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="is anything"></notes>
-								<level compare="at least">2</level>
-							</advantage_prereq>
-						</prereq_list>
-						<spell_prereq has="yes">
-							<name compare="is">walk on air</name>
-						</spell_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">flight</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Glue</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M142</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Grease</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M142</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Great Haste</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>5</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>10 sec</duration>
-				<reference>M146</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-					<attribute_prereq has="yes" which="iq" compare="at least">12</attribute_prereq>
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Haste</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2/pt</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M142</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Hawk Flight</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>8</casting_cost>
-				<maintenance_cost>4</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M146</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">flight</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Hold Fast</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>1/yd</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Increase Burden</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Jump</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1-3</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Levitation</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1 per 80 lbs</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Light Tread</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>1</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">shape earth</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Lighten Burden</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>10 min</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Lockmaster</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M144</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">locksmith</name>
-					</spell_prereq>
-					<prereq_list all="yes">
-						<spell_prereq has="yes">
-							<name compare="is">apportation</name>
-						</spell_prereq>
-						<prereq_list all="no">
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="contains">one college (movement)</notes>
-								<level compare="at least">2</level>
-							</advantage_prereq>
-							<advantage_prereq has="yes">
-								<name compare="is">magery</name>
-								<notes compare="is anything"></notes>
-								<level compare="at least">2</level>
-							</advantage_prereq>
-						</prereq_list>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Locksmith</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>2</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Long March</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 min</casting_time>
-				<duration>1 day</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<spell_prereq has="yes">
-							<name compare="is">debility</name>
-						</spell_prereq>
-						<spell_prereq has="yes">
-							<name compare="is">clumsiness</name>
-						</spell_prereq>
-					</prereq_list>
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Manipulate</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">locksmith</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Poltergeist</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Missile</spell_class>
-				<casting_cost>1 or 2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<ranged_weapon>
-					<damage>Special cr</damage>
-					<accuracy>1</accuracy>
-					<range>20/60</range>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Throwing</name>
-						<modifier>0</modifier>
-					</default>
-				</ranged_weapon>
-				<reference>M144</reference>
-				<notes>throws object with ST 15, p. B355.  Cost: 1 pt for an item up to 10 lbs (1d dmg); 2 pts for something up to 25 lbs (1d+1 dmg).</notes>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Pull</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1 per 2 ST of pull</casting_cost>
-				<casting_time>5 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M146</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<college compare="contains">movement</college>
-						<quantity compare="at least">3</quantity>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">levitation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Quick March</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 min</casting_time>
-				<duration>1 day</duration>
-				<reference>M144</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Rapid Journey</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>5 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M82</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<spell_prereq has="yes">
-							<name compare="is">teleport</name>
-						</spell_prereq>
-						<spell_prereq has="yes">
-							<name compare="is">timeport</name>
-						</spell_prereq>
-					</prereq_list>
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (gate)</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Repel</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1 per 2 ST of repulsion</casting_cost>
-				<casting_time>5 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M147</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<college compare="is">movement</college>
-						<quantity compare="at least">3</quantity>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">levitation</name>
-					</spell_prereq>
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">2</level>
-						</advantage_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Slide</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>2</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">grease</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Slow</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>5</casting_cost>
-				<maintenance_cost>4</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>10 sec</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">1</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">haste</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">hinder</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Slow Fall</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1 per 50 lbs</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M144</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Swim</name>
-				<college>Movement/Water</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>6</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M147</reference>
-				<categories>
-					<category>Movement</category>
-					<category>Water</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">levitation</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">shape water</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Teleport</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M147</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">hawk flight</name>
-					</spell_prereq>
-					<prereq_list all="yes">
-						<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
-						<spell_prereq has="yes">
-							<college_count compare="at least">10</college_count>
-						</spell_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2" very_hard="yes">
-				<name>Teleport Other</name>
-				<college>Gate/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>_</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M147</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<prereq_list all="no">
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="contains">one college (movement)</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-						<advantage_prereq has="yes">
-							<name compare="is">magery</name>
-							<notes compare="does not contain">one college</notes>
-							<level compare="at least">3</level>
-						</advantage_prereq>
-					</prereq_list>
-					<spell_prereq has="yes">
-						<name compare="is">teleport</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Trace Teleport</name>
-				<college>Gate/Movement</college>
+				<name>Seek Earth</name>
+				<college>Earth</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
 				<casting_cost>3</casting_cost>
 				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
+				<casting_time>10 sec</casting_time>
 				<duration>Instant</duration>
-				<reference>M84</reference>
+				<reference>M50</reference>
 				<categories>
-					<category>Gate</category>
-					<category>Movement</category>
+					<category>Earth</category>
 				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">teleport</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">timeport</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">plane shift</name>
-					</spell_prereq>
-				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Undo</name>
-				<college>Movement</college>
+				<name>Shape Earth</name>
+				<college>Earth</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M145</reference>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">locksmith</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Wallwalker</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1 per 50 lbs</casting_cost>
+				<casting_cost>1/25 cu ft</casting_cost>
 				<maintenance_cost>Half</maintenance_cost>
 				<casting_time>1 sec</casting_time>
 				<duration>1 min</duration>
-				<reference>M144</reference>
+				<reference>M50</reference>
 				<categories>
-					<category>Movement</category>
+					<category>Earth</category>
 				</categories>
 				<prereq_list all="yes">
 					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Winged Knife</name>
-				<college>Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Missile</spell_class>
-				<casting_cost>1/lb</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<ranged_weapon>
-					<damage>per weapon</damage>
-					<accuracy>1</accuracy>
-					<range>20/40</range>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Throwing</name>
-						<modifier>0</modifier>
-					</default>
-				</ranged_weapon>
-				<reference>M145</reference>
-				<notes>throws any weapon with ST 15</notes>
-				<categories>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">poltergeist</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Wizard Hand</name>
-				<college>Knowledge/Movement</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>3 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M104</reference>
-				<categories>
-					<category>Knowledge</category>
-					<category>Movement</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">manipulate</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">far-feeling</name>
+						<name compare="is">seek earth</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -4177,28 +2802,6 @@
 				<prereq_list all="yes">
 					<spell_prereq has="yes">
 						<name compare="is">shield</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Atmosphere Dome</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>6 hrs</duration>
-				<reference>M169</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">purify air</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">weather dome</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -4251,25 +2854,6 @@
 				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Catch Missile</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M168</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">deflect missile</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
 				<name>Coolness</name>
 				<college>Protection/Water</college>
 				<power_source>Arcane</power_source>
@@ -4286,49 +2870,6 @@
 				<prereq_list all="yes">
 					<spell_prereq has="yes">
 						<name compare="is">cold</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Deflect Missile</name>
-				<college>Movement/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>1</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M143</reference>
-				<categories>
-					<category>Movement</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Detect Poison</name>
-				<college>Healing/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area/Info</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>-</duration>
-				<reference>M166</reference>
-				<categories>
-					<category>Healing</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">sense danger</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">test food</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -4363,6 +2904,39 @@
 					</spell_prereq>
 					<spell_prereq has="yes">
 						<name compare="is">apportation</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Weather Dome</name>
+				<college>Protection/Weather</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>6 hrs</duration>
+				<reference>M169</reference>
+				<categories>
+					<category>Protection</category>
+					<category>Weather</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college compare="contains">water</college>
+						<quantity compare="at least">2</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<college compare="contains">earth</college>
+						<quantity compare="at least">2</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<college compare="contains">fire</college>
+						<quantity compare="at least">2</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<college compare="contains">air</college>
+						<quantity compare="at least">2</quantity>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -4484,106 +3058,6 @@
 				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Nightingale</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>10 hrs</duration>
-				<reference>M167</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">sense danger</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Resist Disease</name>
-				<college>Healing/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>1 hr</duration>
-				<reference>M90</reference>
-				<categories>
-					<category>Healing</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">remove contagion</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">vigor</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Resist Poison</name>
-				<college>Healing/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>4</casting_cost>
-				<maintenance_cost>3</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>1 Hour</duration>
-				<reference>M91</reference>
-				<categories>
-					<category>Healing</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">vigor</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Resist Pressure</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M169</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">weather dome</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Return Missile</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M168</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">catch missile</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
 				<name>Reverse Missiles</name>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
@@ -4602,51 +3076,6 @@
 					</spell_prereq>
 					<spell_prereq has="yes">
 						<name compare="is">force dome</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Sense Danger</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Info</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M166</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">sense foes</name>
-					</spell_prereq>
-					<advantage_prereq has="yes">
-						<name compare="is">danger sense</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Sense Observation</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>1 or 3</casting_cost>
-				<maintenance_cost>Half</maintenance_cost>
-				<casting_time>5 sec</casting_time>
-				<duration>1 hr</duration>
-				<reference>M167</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">sense danger</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">scryguard</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
@@ -4699,56 +3128,6 @@
 				</prereq_list>
 			</spell>
 			<spell version="2">
-				<name>Teleport Shield</name>
-				<college>Gate/Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>1#</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>1 hr</duration>
-				<reference>M170</reference>
-				<categories>
-					<category>Gate</category>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">watchdog</name>
-					</spell_prereq>
-					<prereq_list all="no">
-						<spell_prereq has="yes">
-							<name compare="is">spell shield</name>
-						</spell_prereq>
-						<spell_prereq has="yes">
-							<name compare="is">teleport</name>
-						</spell_prereq>
-					</prereq_list>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Turn Blade</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Blocking</spell_class>
-				<casting_cost>1</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M167</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">apportation</name>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<name compare="is">spasm</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
 				<name>Umbrella</name>
 				<college>Protection/Water</college>
 				<power_source>Arcane</power_source>
@@ -4788,132 +3167,6 @@
 				<prereq_list all="yes">
 					<spell_prereq has="yes">
 						<name compare="is">heat</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Watchdog</name>
-				<college>Protection</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>1</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>10 sec</casting_time>
-				<duration>10 hrs</duration>
-				<reference>M167</reference>
-				<categories>
-					<category>Protection</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">sense danger</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Weather Dome</name>
-				<college>Protection/Weather</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>3</casting_cost>
-				<maintenance_cost>2</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>6 hrs</duration>
-				<reference>M169</reference>
-				<categories>
-					<category>Protection</category>
-					<category>Weather</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<college compare="contains">water</college>
-						<quantity compare="at least">2</quantity>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<college compare="contains">earth</college>
-						<quantity compare="at least">2</quantity>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<college compare="contains">fire</college>
-						<quantity compare="at least">2</quantity>
-					</spell_prereq>
-					<spell_prereq has="yes">
-						<college compare="contains">air</college>
-						<quantity compare="at least">2</quantity>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Water</name>
-			<spell version="2">
-				<name>Create Water</name>
-				<college>Water</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>2/gal</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Permanent</duration>
-				<reference>M184</reference>
-				<categories>
-					<category>Water</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">purify water</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Purify Water</name>
-				<college>Water</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>1/gal</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>5-10/gal#</casting_time>
-				<duration>Permanent</duration>
-				<reference>M184</reference>
-				<categories>
-					<category>Water</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">seek water</name>
-					</spell_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="2">
-				<name>Seek Water</name>
-				<college>Water</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Info</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>Instant</duration>
-				<reference>M184</reference>
-				<categories>
-					<category>Water</category>
-				</categories>
-			</spell>
-			<spell version="2">
-				<name>Shape Water</name>
-				<college>Water</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>1#</casting_cost>
-				<maintenance_cost>1</maintenance_cost>
-				<casting_time>2 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>M185</reference>
-				<categories>
-					<category>Water</category>
-				</categories>
-				<prereq_list all="yes">
-					<spell_prereq has="yes">
-						<name compare="is">create water</name>
 					</spell_prereq>
 				</prereq_list>
 			</spell>
