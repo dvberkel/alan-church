@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Nov 20, 2015 7:04 AM</modified_date>
+	<modified_date>Jan 6, 2016 3:18 PM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -22,7 +22,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>76</total_points>
+	<total_points>166</total_points>
 	<ST>8</ST>
 	<DX>10</DX>
 	<IQ>13</IQ>
@@ -700,26 +700,6 @@
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Autophobia (Being Alone)</name>
-				<type>Mental</type>
-				<base_points>-15</base_points>
-				<cr>12</cr>
-				<reference>B149</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Brontophobia (Loud Noises)</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<cr>12</cr>
-				<reference>B150</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
 				<name>Bully</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -753,45 +733,6 @@
 						<notes compare="is anything"></notes>
 					</advantage_prereq>
 				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Fanaticism (K-theorist)</name>
-				<type>Mental</type>
-				<base_points>-15</base_points>
-				<modifier version="1" enabled="no">
-					<name>Extreme</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B136</reference>
-				</modifier>
-				<reference>B136</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Low Pain Threshold</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<reference>B142</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<prereq_list all="yes">
-					<advantage_prereq has="no">
-						<name compare="is">high pain threshold</name>
-						<notes compare="is anything"></notes>
-					</advantage_prereq>
-				</prereq_list>
-			</advantage>
-			<advantage version="2">
-				<name>Paranoia</name>
-				<type>Mental</type>
-				<base_points>-10</base_points>
-				<reference>B148</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
 			</advantage>
 			<advantage_container version="2" open="yes">
 				<name>Quirks</name>
@@ -827,38 +768,6 @@
 					<base_points>-1</base_points>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
-				<name>Secret Identity (Corporate)</name>
-				<type>Social</type>
-				<modifier version="1" enabled="no">
-					<name>Serious Embarrassment</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B152</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Utter Rejection</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B152</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Imprisonment</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B152</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Possible Death</name>
-					<cost type="points">-30</cost>
-					<affects>total</affects>
-					<reference>B152</reference>
-				</modifier>
-				<reference>B152</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
 			<advantage version="2">
 				<name>Skinny</name>
 				<type>Physical</type>
@@ -3172,7 +3081,7 @@
 			</spell>
 		</spell_container>
 	</spell_list>
-	<print_settings units="in">
+	<print_settings printer="Brother-DCP-1610W-series" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
