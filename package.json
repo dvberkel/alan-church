@@ -1,0 +1,25 @@
+{
+  "name": "alan-church-uploader",
+  "version": "1.0.0",
+  "description": "Utility to upload Alan Church character sheet to Google drive",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvberkel/alan-church.git"
+  },
+  "keywords": [
+    "google",
+    "drive",
+    "pdf",
+    "uploader"
+  ],
+  "author": "Daan van Berkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvberkel/alan-church/issues"
+  },
+  "homepage": "https://github.com/dvberkel/alan-church#readme"
+}
