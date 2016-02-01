@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ifppq4u5:-b7ktm5ixtmky" version="2">
 	<created_date>Oct 13, 2015</created_date>
-	<modified_date>Jan 22, 2016 10:40 AM</modified_date>
+	<modified_date>Feb 1, 2016 3:57 PM</modified_date>
 	<profile>
 		<player_name>Daan van Berkel</player_name>
 		<name>Alan Church</name>
@@ -46,7 +46,10 @@ V: "Bij de nieuwe goden"
 A: "en hun nalatenschap"
 V: "Bij de oude goden"
 A: "mogen hun werken voorgoed verborgen blijven"
-Kleindochter van Shakar is ontvoerd. Waarschijnlijk naar de oude reunie van Radallah.</notes>
+Kleindochter van Shakar is ontvoerd. Waarschijnlijk naar de oude reunie van Radallah.
+----------------------------------------------------------------------------------------------
+Radallah is 1 dag reizen. Het schijnt in verval geraakt doordat de bewoners gek werden. Shakira is de dochter van Shakar. Ik heb een versleuteld bericht van Shakar gelezen.
+De hoet-hoets worden aangestuurd door een eindbaas</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42pS957cV15Wvff6W+447
@@ -749,7 +752,7 @@ eAy1cgAAAABJRU5ErkJggg==
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>86</total_points>
+	<total_points>88</total_points>
 	<ST>8</ST>
 	<DX>10</DX>
 	<IQ>13</IQ>
@@ -1518,27 +1521,6 @@ eAy1cgAAAABJRU5ErkJggg==
 			</skill>
 			<skill version="2">
 				<name>Mathematics</name>
-				<specialization>Applied</specialization>
-				<difficulty>IQ/H</difficulty>
-				<points>1</points>
-				<reference>207</reference>
-				<default>
-					<type>Skill</type>
-					<name>Engineer</name>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Physics</name>
-					<modifier>-5</modifier>
-				</default>
-				<default>
-					<type>IQ</type>
-					<modifier>-6</modifier>
-				</default>
-			</skill>
-			<skill version="2">
-				<name>Mathematics</name>
 				<specialization>Pure</specialization>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -1709,66 +1691,6 @@ eAy1cgAAAABJRU5ErkJggg==
 				<type>Skill</type>
 				<name>Acting</name>
 				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Innate Attack</name>
-			<specialization>Beam</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Innate Attack</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Innate Attack</name>
-			<specialization>Breath</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Innate Attack</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Innate Attack</name>
-			<specialization>Projectile</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Innate Attack</name>
-				<modifier>-2</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -2172,6 +2094,163 @@ eAy1cgAAAABJRU5ErkJggg==
 	</skill_list>
 	<spell_list>
 		<spell_container version="2" open="yes">
+			<name>Air</name>
+			<spell version="2">
+				<name>Create Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>1</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>5 sec</duration>
+				<reference>M23</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">purify air</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">seek air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Purify Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>1</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M23</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+			</spell>
+			<spell version="2">
+				<name>Shape Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M24</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="2" open="yes">
+			<name>Body Control</name>
+			<spell version="2">
+				<name>Clumsiness</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-5</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Hinder</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-4</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">clumsiness</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">haste</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Itch</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Until scratched</duration>
+				<reference>M35</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+			</spell>
+			<spell version="2">
+				<name>Spasm</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M35</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">itch</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Vigor</name>
+				<college>Body Control</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/+HT</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">lend vitality</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">frailty</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="2" open="yes">
 			<name>Communication</name>
 			<spell version="2">
 				<name>Sense Foes</name>
@@ -2189,20 +2268,39 @@ eAy1cgAAAABJRU5ErkJggg==
 			</spell>
 		</spell_container>
 		<spell_container version="2" open="yes">
-			<name>Body Control</name>
+			<name>Earth</name>
 			<spell version="2">
-				<name>Itch</name>
-				<college>Body Control</college>
+				<name>Seek Earth</name>
+				<college>Earth</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>10 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M50</reference>
+				<categories>
+					<category>Earth</category>
+				</categories>
+			</spell>
+			<spell version="2">
+				<name>Shape Earth</name>
+				<college>Earth</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
+				<casting_cost>1/25 cu ft</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
 				<casting_time>1 sec</casting_time>
-				<duration>Until scratched</duration>
-				<reference>M35</reference>
+				<duration>1 min</duration>
+				<reference>M50</reference>
 				<categories>
-					<category>Body Control</category>
+					<category>Earth</category>
 				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">seek earth</name>
+					</spell_prereq>
+				</prereq_list>
 			</spell>
 		</spell_container>
 		<spell_container version="2" open="yes">
