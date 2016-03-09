@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ilicyeju:1h5mioup5m8m6" version="2">
 	<created_date>Mar 7, 2016</created_date>
-	<modified_date>Mar 8, 2016 1:40 PM</modified_date>
+	<modified_date>Mar 9, 2016 10:04 AM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shephars of Garden</campaign>
@@ -1972,6 +1972,46 @@ imkz6c33zawC/zaqKeq1bPbCmY/l9EcfyP8FgyNZ95xyV8sAAAAASUVORK5CYII=
 				</default>
 			</skill>
 			<skill version="2">
+				<name>Innate Attack</name>
+				<specialization>Beam</specialization>
+				<difficulty>DX/E</difficulty>
+				<points>1</points>
+				<reference>B201</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<modifier>-2</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Innate Attack</name>
+				<specialization>Breath</specialization>
+				<difficulty>DX/E</difficulty>
+				<points>1</points>
+				<reference>B201</reference>
+				<categories>
+					<category>Combat/Weapon</category>
+					<category>Ranged Combat</category>
+				</categories>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<modifier>-2</modifier>
+				</default>
+			</skill>
+			<skill version="2">
 				<name>Knife</name>
 				<difficulty>DX/E</difficulty>
 				<points>1</points>
@@ -2614,6 +2654,64 @@ imkz6c33zawC/zaqKeq1bPbCmY/l9EcfyP8FgyNZ95xyV8sAAAAASUVORK5CYII=
 	</skill_list>
 	<spell_list>
 		<spell_container version="2" open="yes">
+			<name>Air</name>
+			<spell version="2">
+				<name>Create Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>1</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>5 sec</duration>
+				<reference>M23</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">purify air</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">seek air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Purify Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>1</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M23</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+			</spell>
+			<spell version="2">
+				<name>Shape Air</name>
+				<college>Air</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M24</reference>
+				<categories>
+					<category>Air</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">create air</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
+		<spell_container version="2" open="yes">
 			<name>Body Control</name>
 			<spell version="2">
 				<name>Clumsiness</name>
@@ -2831,64 +2929,6 @@ imkz6c33zawC/zaqKeq1bPbCmY/l9EcfyP8FgyNZ95xyV8sAAAAASUVORK5CYII=
 		</spell_container>
 		<spell_container version="2" open="yes">
 			<name>Fire</name>
-			<spell_container version="2" open="yes">
-				<name>Air</name>
-				<spell version="2">
-					<name>Create Air</name>
-					<college>Air</college>
-					<power_source>Arcane</power_source>
-					<spell_class>Area</spell_class>
-					<casting_cost>1</casting_cost>
-					<maintenance_cost>-</maintenance_cost>
-					<casting_time>1 sec</casting_time>
-					<duration>5 sec</duration>
-					<reference>M23</reference>
-					<categories>
-						<category>Air</category>
-					</categories>
-					<prereq_list all="no">
-						<spell_prereq has="yes">
-							<name compare="is">purify air</name>
-						</spell_prereq>
-						<spell_prereq has="yes">
-							<name compare="is">seek air</name>
-						</spell_prereq>
-					</prereq_list>
-				</spell>
-				<spell version="2">
-					<name>Purify Air</name>
-					<college>Air</college>
-					<power_source>Arcane</power_source>
-					<spell_class>Area</spell_class>
-					<casting_cost>1</casting_cost>
-					<maintenance_cost>-</maintenance_cost>
-					<casting_time>1 sec</casting_time>
-					<duration>Instant</duration>
-					<reference>M23</reference>
-					<categories>
-						<category>Air</category>
-					</categories>
-				</spell>
-				<spell version="2">
-					<name>Shape Air</name>
-					<college>Air</college>
-					<power_source>Arcane</power_source>
-					<spell_class>Regular</spell_class>
-					<casting_cost>1-10</casting_cost>
-					<maintenance_cost>-</maintenance_cost>
-					<casting_time>1 sec</casting_time>
-					<duration>1 min</duration>
-					<reference>M24</reference>
-					<categories>
-						<category>Air</category>
-					</categories>
-					<prereq_list all="yes">
-						<spell_prereq has="yes">
-							<name compare="is">create air</name>
-						</spell_prereq>
-					</prereq_list>
-				</spell>
-			</spell_container>
 			<spell version="2" very_hard="yes">
 				<name>Body of Flames</name>
 				<college>Fire</college>
