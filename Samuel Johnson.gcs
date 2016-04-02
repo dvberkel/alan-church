@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="ilicyeju:1h5mioup5m8m6" version="2">
 	<created_date>Mar 7, 2016</created_date>
-	<modified_date>Mar 9, 2016 10:16 AM</modified_date>
+	<modified_date>Apr 2, 2016 10:30 AM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shephars of Garden</campaign>
@@ -1628,62 +1628,9 @@ imkz6c33zawC/zaqKeq1bPbCmY/l9EcfyP8FgyNZ95xyV8sAAAAASUVORK5CYII=
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Addiction (Cocaine)</name>
+				<name>Prone to Addictions</name>
 				<type>Mental/Physical</type>
-				<modifier version="1" enabled="no">
-					<name>Cost: Cheap</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cost: Expensive</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cost: Very Expensive</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Effects: Hallucinogenic</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Effects: Highly Addictive (-5 on withdrawal roll)</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Effects: Incapacitating</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Effects: Totally Addictive (-10 on withdrawal roll)</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Illegal</name>
-					<cost type="points">0</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Legal</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B122</reference>
-				</modifier>
+				<base_points>-20</base_points>
 				<reference>B122</reference>
 				<categories>
 					<category>Disadvantage</category>
