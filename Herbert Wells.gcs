@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="iqmcnv0f:-1wv32fthzajwc" version="2">
+<character id="0abb825d-1ed8-43b1-ac04-017d44d44227" version="2">
 	<created_date>Jul 14, 2016</created_date>
-	<modified_date>Jul 15, 2016 7:32 PM</modified_date>
+	<modified_date>Sep 16, 2016 8:03 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shephards</campaign>
@@ -24,7 +24,7 @@
 	<total_points>107</total_points>
 	<ST>10</ST>
 	<DX>10</DX>
-	<IQ>12</IQ>
+	<IQ>13</IQ>
 	<HT>10</HT>
 	<will>0</will>
 	<perception>0</perception>
@@ -117,60 +117,9 @@
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Acute Hearing</name>
+				<name>Color Skill Compensation</name>
 				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>hearing</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Acute Taste &amp; Smell</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>taste smell</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Acute Vision</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>vision</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Acute Touch</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>touch</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
+				<base_points>-15</base_points>
 			</advantage>
 			<advantage version="2">
 				<name>Eidetic Memory</name>
@@ -402,25 +351,6 @@
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
-			<name>Administration</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Merchant</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Accounting</name>
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
@@ -450,41 +380,22 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Anthropology</name>
-			<specialization>Bipedals</specialization>
-			<difficulty>IQ/H</difficulty>
+			<name>Administration</name>
+			<difficulty>IQ/A</difficulty>
 			<points>1</points>
-			<reference>B175</reference>
+			<reference>B174</reference>
 			<categories>
-				<category>Social Sciences/Humanities</category>
+				<category>Business</category>
+				<category>Social</category>
 			</categories>
 			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
 				<type>Skill</type>
-				<name>Paleontology</name>
-				<specialization>Paleoanthropology</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sociology</name>
+				<name>Merchant</name>
 				<modifier>-3</modifier>
 			</default>
-		</skill>
-		<skill version="2">
-			<name>Archaeology</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
 			<default>
 				<type>IQ</type>
-				<modifier>-6</modifier>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -737,31 +648,6 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Applied</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Physics</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Astronomy</name>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/H</difficulty>
@@ -778,27 +664,6 @@
 			</prereq_list>
 			<default>
 				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Biology</name>
-			<specialization>Life</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/VH</difficulty>
-			<points>1</points>
-			<reference>B180</reference>
-			<categories>
-				<category>Natural Science</category>
-				<category>Plant</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Naturalist</name>
 				<modifier>-6</modifier>
 			</default>
 		</skill>
@@ -834,79 +699,6 @@
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Chemistry</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B183</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Alchemy</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Hacking</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/VH</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Spy</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">computer programming</name>
-					<specialization compare="is"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</skill>
-		<skill version="2">
-			<name>Computer Operation</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Scholarly</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Computer Programming</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Design/Invention</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Computer Programming</name>
-			<specialization>AI</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B184</reference>
-			<categories>
-				<category>Design/Invention</category>
-			</categories>
-		</skill>
-		<skill version="2">
 			<name>Connoisseur</name>
 			<specialization>Literature</specialization>
 			<difficulty>IQ/A</difficulty>
@@ -932,22 +724,6 @@
 				<name>Writing</name>
 				<modifier>-3</modifier>
 			</default>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Connoisseur</name>
-			<specialization>Visual Arts</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
 			<default>
 				<type>IQ</type>
 				<modifier>-5</modifier>
@@ -986,6 +762,22 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Connoisseur</name>
+			<specialization>Visual Arts</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B185</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Cryptography</name>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/H</difficulty>
@@ -1000,87 +792,6 @@
 				<name>Mathematics</name>
 				<specialization>Cryptology</specialization>
 				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Electrician</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B189</reference>
-			<categories>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Electrical</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Games</name>
-			<specialization>Board &amp; Cards</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Geology</name>
-			<specialization>Earthlike</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Physical, Earthlike</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Prospecting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Naturalist</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Animal</category>
-				<category>Natural Science</category>
-				<category>Outdoor/Exploration</category>
-				<category>Plant</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Biology</name>
-				<modifier>-3</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1109,57 +820,15 @@
 			</categories>
 		</skill>
 		<skill version="2">
-			<name>Innate Attack</name>
-			<specialization>Projectile</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B201</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Innate Attack</name>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Linguistics</name>
+			<name>Naturalist</name>
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
-			<reference>B205</reference>
+			<reference>B211</reference>
 			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Literature</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B205</reference>
-			<categories>
-				<category>Scholarly</category>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Applied</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
+				<category>Animal</category>
 				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
 			</categories>
 			<default>
 				<type>IQ</type>
@@ -1167,42 +836,8 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Physics</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Mathematics</name>
-			<specialization>Pure</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B207</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Meteorology</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B209</reference>
-			<categories>
-				<category>Natural Science</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
+				<name>Biology</name>
+				<modifier>-3</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1232,36 +867,6 @@
 				<name>Navigation</name>
 				<specialization>Sea</specialization>
 				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Public Speaking</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B216</reference>
-			<categories>
-				<category>Business</category>
-				<category>Scholarly</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1310,7 +915,7 @@
 		<skill version="2">
 			<name>Staff</name>
 			<difficulty>DX/A</difficulty>
-			<points>4</points>
+			<points>12</points>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -1331,24 +936,268 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
-			<name>Theology</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B226</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Religious Ritual</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
+		<skill_container version="2" open="yes">
+			<name>color</name>
+			<skill version="2">
+				<name>Archaeology</name>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B176</reference>
+				<categories>
+					<category>Social Sciences/Humanities</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Biology</name>
+				<specialization>Life</specialization>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/VH</difficulty>
+				<points>1</points>
+				<reference>B180</reference>
+				<categories>
+					<category>Natural Science</category>
+					<category>Plant</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Naturalist</name>
+					<modifier>-6</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Computer Hacking</name>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/VH</difficulty>
+				<points>1</points>
+				<reference>B184</reference>
+				<categories>
+					<category>Criminal/Street</category>
+					<category>Spy</category>
+				</categories>
+				<prereq_list all="yes">
+					<skill_prereq has="yes">
+						<name compare="is">computer programming</name>
+						<specialization compare="is"></specialization>
+					</skill_prereq>
+				</prereq_list>
+			</skill>
+			<skill version="2">
+				<name>Computer Operation</name>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/E</difficulty>
+				<points>1</points>
+				<reference>B184</reference>
+				<categories>
+					<category>Everyman</category>
+					<category>Scholarly</category>
+					<category>Technical</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Computer Programming</name>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B184</reference>
+				<categories>
+					<category>Design/Invention</category>
+				</categories>
+			</skill>
+			<skill version="2">
+				<name>Computer Programming</name>
+				<specialization>AI</specialization>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B184</reference>
+				<categories>
+					<category>Design/Invention</category>
+				</categories>
+			</skill>
+			<skill version="2">
+				<name>Electrician</name>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/A</difficulty>
+				<points>1</points>
+				<reference>B189</reference>
+				<categories>
+					<category>Repair/Maintainance</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Engineer</name>
+					<specialization>Electrical</specialization>
+					<modifier>-3</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Geology</name>
+				<specialization>Earthlike</specialization>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B198</reference>
+				<categories>
+					<category>Natural Science</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Geography</name>
+					<specialization>Physical, Earthlike</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Prospecting</name>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Linguistics</name>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B205</reference>
+				<categories>
+					<category>Social Sciences/Humanities</category>
+				</categories>
+			</skill>
+			<skill version="2">
+				<name>Literature</name>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B205</reference>
+				<categories>
+					<category>Scholarly</category>
+					<category>Social Sciences/Humanities</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Mathematics</name>
+				<specialization>Applied</specialization>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B207</reference>
+				<categories>
+					<category>Natural Science</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Physics</name>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Engineer</name>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Mathematics</name>
+				<specialization>Pure</specialization>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B207</reference>
+				<categories>
+					<category>Natural Science</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Meteorology</name>
+				<tech_level>4</tech_level>
+				<difficulty>IQ/A</difficulty>
+				<points>1</points>
+				<reference>B209</reference>
+				<categories>
+					<category>Natural Science</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Public Speaking</name>
+				<difficulty>IQ/A</difficulty>
+				<points>1</points>
+				<reference>B216</reference>
+				<categories>
+					<category>Business</category>
+					<category>Scholarly</category>
+					<category>Social</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Acting</name>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Performance</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Politics</name>
+					<modifier>-5</modifier>
+				</default>
+			</skill>
+			<skill version="2">
+				<name>Theology</name>
+				<difficulty>IQ/H</difficulty>
+				<points>1</points>
+				<reference>B226</reference>
+				<categories>
+					<category>Social Sciences/Humanities</category>
+				</categories>
+				<default>
+					<type>IQ</type>
+					<modifier>-6</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Religious Ritual</name>
+					<modifier>-4</modifier>
+				</default>
+			</skill>
+		</skill_container>
 	</skill_list>
 	<spell_list>
 		<spell version="2" very_hard="yes">
@@ -1366,6 +1215,74 @@
 			</categories>
 		</spell>
 	</spell_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Quarterstaff</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>4 lb</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Swung</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Thrust</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
 	<print_settings printer="Brother-DCP-1610W-series" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
