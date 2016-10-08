@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="0abb825d-1ed8-43b1-ac04-017d44d44227" version="2">
 	<created_date>Jul 14, 2016</created_date>
-	<modified_date>Sep 16, 2016 8:03 PM</modified_date>
+	<modified_date>Oct 8, 2016 2:30 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shephards</campaign>
@@ -21,7 +21,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>107</total_points>
+	<total_points>117</total_points>
 	<ST>10</ST>
 	<DX>10</DX>
 	<IQ>13</IQ>
@@ -348,6 +348,10 @@
 				</categories>
 			</advantage>
 		</advantage_container>
+		<advantage version="2">
+			<name>Advantage</name>
+			<type>Physical</type>
+		</advantage>
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
@@ -820,6 +824,46 @@
 			</categories>
 		</skill>
 		<skill version="2">
+			<name>Innate Attack</name>
+			<specialization>Beam</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B201</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Innate Attack</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Innate Attack</name>
+			<specialization>Projectile</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B201</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Innate Attack</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Naturalist</name>
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
@@ -1200,6 +1244,147 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
+		<spell version="2">
+			<name>Acid Ball</name>
+			<college>Water</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Missile</spell_class>
+			<casting_cost>1-Magery</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1-3 sec</casting_time>
+			<duration>Instant</duration>
+			<ranged_weapon>
+				<damage>1d cor/point</damage>
+				<accuracy>1</accuracy>
+				<range>20/40</range>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<specialization>Projectile</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<reference>M191</reference>
+			<categories>
+				<category>Water</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Acid Jet</name>
+			<college>Water</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-3</casting_cost>
+			<maintenance_cost>1-3</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 sec</duration>
+			<melee_weapon>
+				<damage>1d-1 cor/point</damage>
+				<usage>Jet</usage>
+				<reach>1/point</reach>
+				<parry>No</parry>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<specialization>Beam</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<reference>M192</reference>
+			<categories>
+				<category>Water</category>
+			</categories>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Body of Flames</name>
+			<college>Fire</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>12</casting_cost>
+			<maintenance_cost>4</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>1 min</duration>
+			<melee_weapon>
+				<damage>1d burn</damage>
+				<usage>Punch</usage>
+				<reach>C</reach>
+				<parry>0</parry>
+				<default>
+					<type>DX</type>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Boxing</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Brawling</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Karate</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<reference>M76</reference>
+			<categories>
+				<category>Fire</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Explosive Fireball</name>
+			<college>Fire</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Missile</spell_class>
+			<casting_cost>2-2xMagery#</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1-3 sec</casting_time>
+			<duration>Instant</duration>
+			<ranged_weapon>
+				<damage>1d burn ex/2 points</damage>
+				<accuracy>1</accuracy>
+				<range>25/50</range>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<specialization>Projectile</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<reference>M75</reference>
+			<categories>
+				<category>Fire</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Extinguish Fire</name>
+			<college>Fire</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M72</reference>
+			<categories>
+				<category>Fire</category>
+			</categories>
+		</spell>
 		<spell version="2" very_hard="yes">
 			<name>Major Healing</name>
 			<college>Healing</college>
@@ -1282,6 +1467,116 @@
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Scale Armor</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>420</value>
+			<weight>35 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>4</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Leather Leggings</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>4 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Leather Sleeves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>2 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Gloves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Personal Basics</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>5</value>
+				<weight>1 lb</weight>
+				<reference>B288</reference>
+				<notes>Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+		</equipment_container>
 	</equipment_list>
 	<print_settings printer="Brother-DCP-1610W-series" units="in">
 		<orientation>portrait</orientation>
