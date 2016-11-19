@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="0abb825d-1ed8-43b1-ac04-017d44d44227" version="2">
 	<created_date>Jul 14, 2016</created_date>
-	<modified_date>Oct 8, 2016 2:30 PM</modified_date>
+	<modified_date>Nov 19, 2016 1:12 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shephards</campaign>
@@ -21,7 +21,7 @@
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>117</total_points>
+	<total_points>132</total_points>
 	<ST>10</ST>
 	<DX>10</DX>
 	<IQ>13</IQ>
@@ -156,6 +156,21 @@
 				</categories>
 			</advantage>
 			<advantage version="2">
+				<name>Increased Perception</name>
+				<type>Mental/Physical</type>
+				<levels>1</levels>
+				<points_per_level>5</points_per_level>
+				<reference>B16</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>perception</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
 				<name>Language: Common</name>
 				<type>Mental</type>
 				<modifier version="1">
@@ -237,6 +252,16 @@
 					<reference>B66</reference>
 				</modifier>
 				<reference>B66</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Power Investiture</name>
+				<type>Mental, Supernatural</type>
+				<levels>1</levels>
+				<points_per_level>10</points_per_level>
+				<reference>B77</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -348,10 +373,6 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
-			<name>Advantage</name>
-			<type>Physical</type>
-		</advantage>
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
@@ -1343,6 +1364,35 @@
 			</categories>
 		</spell>
 		<spell version="2">
+			<name>Body of Metal</name>
+			<college>Technological/Metal</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>12</casting_cost>
+			<maintenance_cost>6</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M183</reference>
+			<categories>
+				<category>Metal</category>
+				<category>Technological</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Cure Disease</name>
+			<college>Healing</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>10 min</casting_time>
+			<duration>Permanent</duration>
+			<reference>M91</reference>
+			<categories>
+				<category>Healing</category>
+			</categories>
+		</spell>
+		<spell version="2">
 			<name>Explosive Fireball</name>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
@@ -1383,6 +1433,20 @@
 			<reference>M72</reference>
 			<categories>
 				<category>Fire</category>
+			</categories>
+		</spell>
+		<spell version="2">
+			<name>Illusion Disguise</name>
+			<college>Illusion &amp; Creation</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Until illusion ends</duration>
+			<reference>M96</reference>
+			<categories>
+				<category>Illusion &amp; Creation</category>
 			</categories>
 		</spell>
 		<spell version="2" very_hard="yes">
