@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="93083158-e1eb-47c8-8080-5bcc9594d4b4" version="2">
+<character id="93083158-e1eb-47c8-8080-5bcc9594d4b4" version="3">
 	<created_date>Mar 28, 2017</created_date>
-	<modified_date>Apr 1, 2017 7:15 AM</modified_date>
+	<modified_date>Oct 22, 2017 8:43 AM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<campaign>Shepherds</campaign>
@@ -17,13 +17,14 @@
 		<SM>0</SM>
 		<gender>Male</gender>
 		<race>Human</race>
+		<body_type>humanoid</body_type>
 		<tech_level>3</tech_level>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>187</total_points>
+	<total_points>205</total_points>
 	<ST>7</ST>
-	<DX>10</DX>
+	<DX>11</DX>
 	<IQ>12</IQ>
 	<HT>9</HT>
 	<will>0</will>
@@ -142,7 +143,7 @@
 			<advantage version="2">
 				<name>Enhanced Parry (All parries)</name>
 				<type>Mental</type>
-				<levels>1</levels>
+				<levels>2</levels>
 				<points_per_level>10</points_per_level>
 				<reference>B51</reference>
 				<categories>
@@ -1028,11 +1029,6 @@
 					</advantage_prereq>
 				</prereq_list>
 			</skill>
-			<skill version="2">
-				<name>Skill</name>
-				<difficulty>DX/A</difficulty>
-				<points>1</points>
-			</skill>
 		</skill_container>
 		<skill_container version="2" open="yes">
 			<name>Melee</name>
@@ -1296,7 +1292,7 @@
 		</skill_container>
 	</skill_list>
 	<equipment_list>
-		<equipment_container version="3" open="yes" state="equipped">
+		<equipment_container version="4" open="yes" state="equipped">
 			<description>Backpack, Small</description>
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
@@ -1309,7 +1305,7 @@
 			<prereq_list all="yes">
 				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
-			<equipment version="3" state="equipped">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>5 pt Powerstone (charge: 5)</description>
 				<legality_class>4</legality_class>
@@ -1320,7 +1316,7 @@
 					<category>Powerstone</category>
 				</categories>
 			</equipment>
-			<equipment version="3" state="equipped">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>Lockpicks</description>
 				<tech_level>3</tech_level>
@@ -1334,7 +1330,7 @@
 					<category>and Spy Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="3" state="equipped">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>Personal Basics</description>
 				<tech_level>0</tech_level>
@@ -1347,26 +1343,14 @@
 					<category>Camping and Survival Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="3" state="equipped">
+			<equipment version="4" state="equipped">
 				<quantity>1</quantity>
 				<description>Invisibillity Ring</description>
 				<legality_class>4</legality_class>
 				<value>0</value>
 			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Teleport Ring</description>
-				<legality_class>4</legality_class>
-				<value>0</value>
-			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Magelock Ring</description>
-				<legality_class>4</legality_class>
-				<value>0</value>
-			</equipment>
 		</equipment_container>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Blowpipe</description>
 			<tech_level>0</tech_level>
@@ -1396,7 +1380,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Blowpipe Darts</description>
 			<tech_level>0</tech_level>
@@ -1409,7 +1393,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Crossbow (ST10)</description>
 			<tech_level>2</tech_level>
@@ -1439,7 +1423,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Garrote</description>
 			<tech_level>0</tech_level>
@@ -1466,7 +1450,7 @@
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Large Knife</description>
 			<tech_level>0</tech_level>
@@ -1573,7 +1557,7 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Light Cloak</description>
 			<tech_level>1</tech_level>
@@ -1638,7 +1622,7 @@
 				<amount>1</amount>
 			</attribute_bonus>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Rapier</description>
 			<tech_level>4</tech_level>
@@ -1692,7 +1676,7 @@
 				<category>Melee Weapon</category>
 			</categories>
 		</equipment>
-		<equipment version="3" state="equipped">
+		<equipment version="4" state="equipped">
 			<quantity>1</quantity>
 			<description>Small Knife</description>
 			<tech_level>0</tech_level>
